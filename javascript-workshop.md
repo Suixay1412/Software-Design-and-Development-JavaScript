@@ -458,7 +458,7 @@ for (let i = 10; i >= 1; i--) {
     console.log(i);
 }
 
-let age = 25;
+let age = 10;
 
 if (age >= 0 && age <= 12) {
     console.log(age + " เป็นวัยเด็ก");
@@ -468,7 +468,8 @@ if (age >= 0 && age <= 12) {
     console.log(age + " เป็นวัยผู้ใหญ่");
 }
 ```
-![image](https://github.com/user-attachments/assets/6fbb1a96-6bd3-4fe5-a17c-9a7ec898a00f)
+![image](https://github.com/user-attachments/assets/f720d4e8-fc26-460a-a5dd-ad27280c1fe7)
+
 
 
 ### 2.4 Functions และ Arrow Functions
