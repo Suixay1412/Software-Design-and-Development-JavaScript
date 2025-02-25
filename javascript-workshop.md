@@ -190,6 +190,19 @@ let person = {
 };
  console.log(person);
 ```
+```java
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="student.js"></script>
+</body>
+</html>
+```
 ![Screenshot 2025-02-25 172247](https://github.com/user-attachments/assets/15cd8191-ce57-46f8-8c12-18ecbeef28c0)
 
 
@@ -243,9 +256,41 @@ number /= 2;          // เท่ากับ number = number / 2
 
 ### บันทึกผลการทดลอง 2.2
 ```html
-[บันทึกโค้ด ที่นี่]
+let score1 = 70;
+let score2 = 89;
+let score3 = 69;
+
+let avgScore = (score1 + score2 + score3) / 3;
+
+console.log("คะแนนเฉลี่ย:" , avgScore.toFixed(2));
+
+let productName = "รองเท้า";
+let price = 2599;
+
+let vat = price * 0.07;
+let totalPrice = price + vat;
+
+console.log("ชื่อสินค้า : " , productName);
+console.log("ราคา : " , price + " บาท");
+console.log("vAT 7% :" , vat + " บาท");
+console.log("ราคารวม vat :" , totalPrice.toFixed(2));
 ```
-[รูปผลการทดลองที่ 2.2]
+```java
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="2.2.js"></script>
+</body>
+</html>
+```
+
+![image](https://github.com/user-attachments/assets/60227d14-8e5f-4719-bc41-9c190ebb8b4f)
+
 
 ### 2.3 การควบคุมการทำงาน
 
@@ -376,9 +421,55 @@ for (let i = 1; i <= 5; i++) {
 
 ### บันทึกผลการทดลอง 2.3
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="lab2.3.js"></script>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.3]
+```java
+let number = 26;
+
+if (number % 2 === 0) {
+    console.log(number + " เป็นเลขคู่");
+} else {
+    console.log(number + " เป็นเลขคี่");
+}
+
+console.log("สูตรคูณแม่ 2:");
+for (let i = 1; i <= 12; i++) {
+    console.log(`2 x ${i} = ${2 * i}`);
+}
+
+console.log("\nสูตรคูณแม่ 3:");
+let j = 1;
+while (j <= 12) {
+    console.log(`3 x ${j} = ${3 * j}`);
+    j++;
+}
+console.log("นับถอยหลังจาก 10 ถึง 1:");
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+let age = 25;
+
+if (age >= 0 && age <= 12) {
+    console.log(age + " เป็นวัยเด็ก");
+} else if (age >= 13 && age <= 19) {
+    console.log(age + " เป็นวัยรุ่น");
+} else {
+    console.log(age + " เป็นวัยผู้ใหญ่");
+}
+```
+![image](https://github.com/user-attachments/assets/6fbb1a96-6bd3-4fe5-a17c-9a7ec898a00f)
+
 
 ### 2.4 Functions และ Arrow Functions
 
