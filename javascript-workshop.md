@@ -176,7 +176,7 @@ let person = {
 2. สร้าง Object สำหรับเก็บข้อมูลนักศึกษา  ประกอบด้วยข้อมูล รหัสนักศึกษา, ชื่อ, สาขาวิชา, เกรดเฉลี่ย
 
 ### บันทึกผลการทดลอง 2.1
-```html
+```javascript
 let studentId = "67030314";
 const studentName = "นายปวริศวร์ วงศ์แสนสุข";
 let midtermScore = 40;
@@ -190,7 +190,7 @@ let person = {
 };
  console.log(person);
 ```
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,7 +255,7 @@ number /= 2;          // เท่ากับ number = number / 2
 2. เขียนโปรแกรม กำหนดชื่อสินค้า ราคาสินค้า คำนวณราคาสินค้าที่รวม VAT 7% แล้วแสดงผลการคำนวณ
 
 ### บันทึกผลการทดลอง 2.2
-```html
+```javascript
 let score1 = 70;
 let score2 = 89;
 let score3 = 69;
@@ -275,7 +275,7 @@ console.log("ราคา : " , price + " บาท");
 console.log("vAT 7% :" , vat + " บาท");
 console.log("ราคารวม vat :" , totalPrice.toFixed(2));
 ```
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -433,7 +433,7 @@ for (let i = 1; i <= 5; i++) {
 </body>
 </html>
 ```
-```java
+```javascript
 let number = 26;
 
 if (number % 2 === 0) {
