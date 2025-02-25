@@ -177,9 +177,21 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
-[บันทึกโค้ด ที่นี่]
+let studentId = "67030314";
+const studentName = "นายปวริศวร์ วงศ์แสนสุข";
+let midtermScore = 40;
+let finalScore = 45;
+
+let person = {
+    name: studentName,
+    id: studentId,
+    major: 'วิทยาการคอมพิวเตอร์',
+    gpa : 3.00
+};
+ console.log(person);
 ```
-[รูปผลการทดลองที่ 2.1]
+![Screenshot 2025-02-25 172247](https://github.com/user-attachments/assets/15cd8191-ce57-46f8-8c12-18ecbeef28c0)
+
 
 
 ### 2.2 การดำเนินการทางคณิตศาสตร์
